@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+.container{
+    max-width: 80vw;
+}
+.extra{
+    padding-top: 15px;
+}
+
+.navbar{
+    display: flex;
+    height: 50px;
+    font-family: 'Ubuntu',sans-serif;
+    
+}
+
+.navbar li{
+    list-style: none;
+    margin: 15px 12px;
+   
+}
+
+
+.topleft{
+    width: 50%;
+    height: 50vh;
+}
+
+.topleft h1{
+    padding-left: 60px;
+}
+
+.topright{
+    width: 50%;
+    height: 50vh;
+    padding-top: 60px;
+    padding-left: 70px;
+    padding-right: 80px;
+}
+
+.image{
+    height: 40vh;
+    background-image: url(image.png);
+    background-size: cover;
+}
+
+.section1 h1{
+    color: brown;
+    text-align: center;
+}
+
+.section1 p{
+    color: darkblue;
+    text-align: center;
+    padding: 12px;
+}
+
+.section2{
+    padding: 80px;
+    
+}
+
+.section2 h1{
+    font-size: 3rem;
+    color: brown;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+    color: darkblue;
+}
+
+.section2 h2{
+    color: brown;
+}
+
+.section2 ul{
+    color: darkblue;
+}
+
+.boxes{
+   justify-content: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 12px;
+    min-width: 20vw;
+    border: 2px solid rgb(251, 125, 125);
+    text-align: center;
+    border-radius: 8px;
+    
+}
+
+.h2{
+    padding: 15px;
+    font-size: 30px;
+}
+
+.highlited{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px ;
+    margin-top: 50PX;
+    border-collapse: collapse;
+}
+
+
+.section3 table th{
+    width: 23vw;
+    border-bottom: 1px solid black;
+    padding: 28px 0;
+    font-size: 20px;
+    color: darkblue;
+}
+
+
+.section3 table td{
+    border-bottom: 1px solid black;
+    color: rgb(64, 64, 187);
+}
+
+
+.section3 h1{
+    font-size: 3rem;
+    color: brown;
+}
+
+.section3{
+    padding-left: 80px;
+    padding-right: 63px;
+}
+
+.footer{
+    padding: 23px;
+    color: darkolivegreen;
+}
